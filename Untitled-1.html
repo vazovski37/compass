@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <style>
+    #questions{
+        margin-top: 111px;
+        margin-bottom: 89px;
+
+    }
+    .questionBox{
+        position: relative;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-top: 29px;
+        border-radius: 15px;
+        padding-bottom: 101px;
+        padding-top: 29px;
+    }
+    #counter{
+        position: absolute;
+        padding: 25px 34px 0px 35px;
+        background: #ffffff;
+        border-radius: 17px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 50px;
+        display: flex;
+        align-items: center;
+        color: #0057B8;
+        left: 44%;
+        top: -62px;
+    }
+    .question{
+        margin: auto;
+        width: 95%;
+        height:196px;
+        background: #F4F4F4;
+        border-radius: 10px 10px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #1E2833;
+        
+    }
+    .answer{
+        position: relative;
+        width: 95%;
+        height: 85px;
+        margin: auto;
+        margin-top: 47px;
+    }
+    #disagree{
+        background: #F88080;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8A1717;
+    }
+    #neutral{
+        background: #FFF3CD;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #6B5617;
+    }
+    #agree{
+        background: #B0FDAF;
+        border-radius: 10px;
+        border: none;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #0FA958;
+    }
+  </style>
+  <body style="background: #EFF3FD;">
+    <section id="questions" class="container-xxl"  >
+
+        <img src="Iframe.png" alt="" style="width:100% ;" >
+
+        <div class="questionBox">
+            <div id="counter">
+                <p>1-30</p>
+            </div>
+            <div class="question">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="answer row d-flex justify-content-between ">
+                <button id="disagree" class="col" >არ ვეთანხმები</button>
+                <button id="neutral" class="col mx-5 " > ნეიტრალური</button>
+                <button id="agree"  class="col" > ვეთანხმები</button>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
